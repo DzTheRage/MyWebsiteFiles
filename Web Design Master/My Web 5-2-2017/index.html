@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SV - HOME</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+	<script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+	
+<div class="view containerScale">
+<!--- Mobile NAV --->
+<div class="container-fluid">
+	<div class="mobilenav fixed-top">
+		<div class="menu-wrap">
+					<nav class="menu">
+						<div class="icon-list">
+							<ul>
+							<li><a href=""><span style="color:#ffb96c;">Home</span></a></li>
+							<li><a href="/about"><span>About</span></a></li>
+							<li><a href="/works"><span>Works</span></a></li>
+							</ul>
+								<div class="social-links">
+							<ul>
+									<li><a href="about.html" class="social"><i class="fa fa-facebook moverighter" aria-hidden="true"></i>
+									Facebook</a></li>
+									<li><a href="index.html" class="social"><i class="fa fa-instagram moveright" aria-hidden="true"></i>
+									Instagram</a></li>
+									<li><a href="works.html" class="social"><i class="fa fa-linkedin moveright" aria-hidden="true"></i>
+									Linkedin</a></li>
+							</ul>
+						</div>
+								<div class="social-links">
+									<div class="flex-center">
+									<img class="wow fadeIn flex-center" data-wow-delay="1.5s" src="css/logoSV2.png" width="80px" height="42px">
+								</div>
+							</div>
+					</div>
+				</nav>
+					<button class="close-button" id="close-button">Close Menu</button>
+		</div>
+				<button class="menu-button" id="open-button">Open Menu</button>
+	</div>
+</div>
+<!-- Mobile Nav --->
+
+<!--Mask-->
+
+    <!--Intro content-->
+    <div class="full-bg-img content-wrap">
+	<div class="content flex-center">
+        <ul class="movedown">
+		<div class="container-fluid">
+        <div class="row">
+        <div class="col-md-12 flex-center">
+        <img class="img-responsive homelogo wow fadeIn flex-center" data-wow-delay="1.5s" src="css/logoSV2.png" width="315px" height="211px">
+		</div>
+		</div>
+		<div class="row">
+		<div class="col-md-12 flex-center">
+		<div class="wrap wow fadeInUp" data-wow-delay="0.4s">
+                <svg viewBox="0 0 1000 300" class="svg-defs">
+
+                    <!-- Symbol with text -->
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="50%" dy=".35em" class="text">
+                            Scott Vance
+                        </text>
+                    </symbol>
+
+                    <!-- Mask with text -->
+                    <mask id="m-text" maskunits="userSpaceOnUse" maskcontentunits="userSpaceOnUse">
+
+                        <rect width="100%" height="100%" class="mask__shape">
+                        </rect>
+                        <use xlink:href="#s-text" class="mask__text"></use>
+
+                    </mask>
+                </svg>
+
+                <div class="box-with-text">
+
+                    <!-- Container for video -->
+                    <div class="text-fill">
+                        <video class="video" src="css/fractal3.mp4" autoplay loop></video>
+                    </div>
+
+                    <!-- Visible SVG -->
+                    <svg viewBox="0 0 1000 300" class="svg-inverted-mask">
+                        <rect width="100%" height="100%" mask="url(#m-text)" class="shape--fill" />
+                        <use xlink:href="#s-text" class="text--transparent"></use>
+                    </svg>
+                </div>
+		</div>
+		</div>
+		</div>
+		</div>
+		<div class="mobilehead wow fadeInUp" data-wow-delay="1s">
+		<h1 class="h1-responsive homeheading wow fadeInUp" data-wow-delay=".7s">Scott Vance</h1>
+		</div>
+            <div class="container-fluid">
+                <div class="row movedown2">
+                <div class="col-xl-3 col-md-3 flex-center homeleft">
+            <li>
+                <a href="/about" class="btn-lg homebutton1 wow fadeInUp cmn-t-underline" data-wow-delay="1.1s">
+                ABOUT</a>
+            </li>
+                </div>
+                <div class="col-xl-6 col-md-6 flex-center">
+					
+            <li>
+                   <h4 class="h4-responsive baseline wow fadeInUp" data-wow-delay="1s">DESIGN STUDENT</h4>
+                   <h4 class="h4-responsive hometagline wow fadeInUp" data-wow-delay="1s">UX / Graphic / Web </h4>
+            </li>
+                </div>
+                <div class="col-xl-3 col-md-3 flex-center homeright">
+            <li>
+                <a href="/works" class="btn-lg homebutton2 wow fadeInUp cmn-t-underline" data-wow-delay="1.1s">
+                WORKS</a>
+            </li>
+                </div>
+            </div>
+            
+            <div class="row flex-center">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 flex-center">
+                    <button id="trigger-overlay" type="button" class="thebutton contactbtn wow fadeInUp" data-wow-delay="1.3s">CONTACT</button>
+                </div>
+            <div class="col-md-3"></div>
+            </div>
+            </div>
+   
+
+    <!--/Intro content-->
+</div>
+<!--/.Mask-->
+		<!-- open/close -->
+		<div class="overlay overlay-contentscale flex-center">
+			<button type="button" class="overlay-close">Close</button>
+			<nav>
+					<h4>Got a project in mind?</h4>
+					<hr>
+					<span class="contactinfo">Contact me by e-mail:<br>
+					<a href="mailto:rsv0002@uah.edu"><span class="email">rsv0002@uah.edu</span></a></span>
+			</nav>
+		</div>
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
+
+    <!-- SCRIPTS -->
+    <script src="js/classie.js"></script>
+	<script src="js/demo7.js"></script>
+	<script src="js/main.js"></script>
+<!--Animations initialization-->
+<script>
+new WOW().init();
+</script>  
+    
+    
+</body>
+
+</html>

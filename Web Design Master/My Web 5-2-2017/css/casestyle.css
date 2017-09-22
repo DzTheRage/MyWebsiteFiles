@@ -1,0 +1,390 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  background-color: #171717;
+}
+
+#cd-intro {
+  position: relative;
+  z-index: 1;
+}
+.mockimage {
+  height:600px;
+}
+.image {
+  display: block;
+position: relative;
+width: auto;
+max-width: none;
+}
+#cd-intro-background {
+  height: 510px;
+  margin-top:100px;
+}
+.cd-content {
+  position: relative;
+  line-height: 1.6;
+  color: #65676f;
+  z-index: 2;
+}
+.cd-content::before {
+  /* subtle gradient right above the main content */
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: -webkit-linear-gradient( bottom , rgba(46, 49, 61, 0.5), rgba(46, 49, 61, 0));
+  background: linear-gradient(to top, rgba(46, 49, 61, 0.5), rgba(46, 49, 61, 0));
+}
+.no-cssgradients .cd-content::before {
+  /* use Modernizr to detect whether the browser supports or not css gradients */
+  display: none;
+}
+.workheader {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight:bold;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-top:50px;
+    text-align:center;
+}
+  .mobileworksnav {
+    display:none;
+  }
+.worksubheader {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight:bold;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-top:50px;
+    text-align:center;
+    color:black;
+}
+.worksubheader2 {
+    margin-bottom: 10px;
+    font-size: 80px;
+    font-weight:bold;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-top:50px;
+    text-align:center;
+    color:#fff;
+}
+.workgroup p {
+  text-align:center;
+  color:#cbcbc9;
+}
+.workfooter {
+  padding:50px;
+  background-color:black;
+  width:100%;
+}
+.workfooter h4{
+  font:italic 2em georgia;
+  text-align:center;
+  padding:20px;
+  color:#cbcbc9;
+}
+.workfooter p{
+  font-size:1em;
+  text-align:center;
+  text-transform:uppercase;
+  font-weight:500;
+  color:#fff;
+}
+.workfooter p span{
+  color:#ffb96c;
+}
+.workdescription {
+  max-width:500px;
+  text-align:center;
+  padding-bottom:50px;
+  color:#cbcbc9;
+  line-height:1.6;
+}
+.workinfos {
+  background-color: #cbcbc9;
+  padding:40px;
+}
+.workinfos ul {
+  padding-bottom:20px;
+  color:black;
+}
+.workgroup {
+ padding:50px 0;
+}
+/* Works Nav */
+.testmove2 {
+  margin-left:50px;
+}
+.testmove3 {
+  margin-right:50px;
+}
+.work-navigation {
+    margin: -28px 0 0;
+    position: fixed;
+    top: 560px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    z-index: 3;
+}
+.nav-fillpath a {
+	position: absolute;
+	top: 50%;
+	display: block;
+	outline: none;
+	text-align: left;
+	z-index: 1000;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.nav-fillpath a.prev {
+	left: 0;
+}
+
+.nav-fillpath a.next {
+	right: 0;
+}
+
+.nav-fillpath a svg {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+}
+/*--------------------*/
+/* Fillpath 
+/*--------------------*/
+.nav-fillpath a {
+	width: 100px;
+	height: 100px;
+}
+
+.nav-fillpath .icon-wrap {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.nav-fillpath a::before,
+.nav-fillpath a::after,
+.nav-fillpath .icon-wrap::before,
+.nav-fillpath .icon-wrap::after {
+	position: absolute;
+	left: 50%;
+	width: 3px;
+	height: 50%;
+	background: #566475;
+	content: '';
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.nav-fillpath .icon-wrap::before,
+.nav-fillpath .icon-wrap::after {
+	z-index: 100;
+	height: 0;
+	background: #ffb96c;
+	-webkit-transition: height 0.3s, -webkit-transform 0.3s;
+	transition: height 0.3s, transform 0.3s;
+}
+
+.nav-fillpath a::before,
+.nav-fillpath .icon-wrap::before {
+	top: 50%;
+	-webkit-transform: translateX(-50%) rotate(-135deg);
+	transform: translateX(-50%) rotate(-135deg);
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+}
+
+.nav-fillpath a.next::before,
+.nav-fillpath a.next .icon-wrap::before {
+	-webkit-transform: translateX(-50%) rotate(135deg);
+	transform: translateX(-50%) rotate(135deg);
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+}
+
+.nav-fillpath a::after,
+.nav-fillpath .icon-wrap::after {
+	top: 50%;
+	-webkit-transform: translateX(-50%) rotate(-45deg);
+	transform: translateX(-50%) rotate(-45deg);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.nav-fillpath a.next::after,
+.nav-fillpath a.next .icon-wrap::after {
+	-webkit-transform: translateX(-50%) rotate(45deg);
+	transform: translateX(-50%) rotate(45deg);
+	-webkit-transform-origin: 100% 0%;
+	transform-origin: 100% 0%;
+}
+
+.nav-fillpath h3 {
+	position: absolute;
+	top: 50%;
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 1em;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+  background-color:black;
+  padding:15px;
+  border-radius:20px;
+}
+
+.nav-fillpath a.prev h3 {
+	left: 100%;
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	transform: translateY(-50%) translateX(-50%);
+}
+
+.nav-fillpath a.next h3 {
+	right: 100%;
+	text-align: right;
+	-webkit-transform: translateY(-50%) translateX(50%);
+	transform: translateY(-50%) translateX(50%);
+}
+
+.nav-fillpath a:hover .icon-wrap::before,
+.nav-fillpath a:hover .icon-wrap::after {
+	height: 50%;
+}
+
+.nav-fillpath a:hover::before,
+.nav-fillpath a:hover .icon-wrap::before {
+	-webkit-transform: translateX(-50%) rotate(-125deg);
+	transform: translateX(-50%) rotate(-125deg);
+}
+
+.nav-fillpath a.next:hover::before,
+.nav-fillpath a.next:hover .icon-wrap::before {
+	-webkit-transform: translateX(-50%) rotate(125deg);
+	transform: translateX(-50%) rotate(125deg);
+}
+
+.nav-fillpath a:hover::after,
+.nav-fillpath a:hover .icon-wrap::after {
+	-webkit-transform: translateX(-50%) rotate(-55deg);
+	transform: translateX(-50%) rotate(-55deg);
+}
+
+.nav-fillpath a.next:hover::after,
+.nav-fillpath a.next:hover .icon-wrap::after {
+	-webkit-transform: translateX(-50%) rotate(55deg);
+	transform: translateX(-50%) rotate(55deg);
+}
+
+.nav-fillpath a:hover h3 {
+	opacity: 1;
+	-webkit-transform: translateY(-50%) translateX(0);
+	transform: translateY(-50%) translateX(0);
+}
+@media (max-width:910px) {
+  .mockimage {
+  height:500px;
+  }
+  .work-navigation {
+    top:93px;
+    z-index:2000;
+  }
+  .nav-fillpath h3 {
+	position: absolute;
+	top: 50%;
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 0.85em;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+  background-color:rgba(0,0,0,0.7);
+  padding:20px;
+  border-radius:30px;
+  }
+}
+@media (max-width:750px) {
+  .mockimage {
+  height:400px;
+  }
+  .aboutdesktopnav {
+        display:none;
+    }
+    .mobilenav {
+        display:block;
+    }
+    .navbar {
+    background-color: rgba(0, 0, 0, 1);
+    padding:0;
+    height:60px;
+    }
+    .nav-fillpath a::before, .nav-fillpath a::after, .nav-fillpath .icon-wrap::before, .nav-fillpath .icon-wrap::after {
+    position: absolute;
+    width: 3px;
+    height: 20%;
+    background: #566475;
+    content: '';
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    }
+    .nav-fillpath .icon-wrap::before, .nav-fillpath .icon-wrap::after {
+    z-index: 100;
+    height: 0;
+    background: #ffb96c;
+    -webkit-transition: height 0.3s, -webkit-transform 0.3s;
+    transition: height 0.3s, transform 0.3s;
+  }
+  .work-navigation {
+    display:none;
+  }
+  .mobileworksnav {
+    display:block;
+  }
+  .worksubheader2 {
+    font-size: 40px;
+  }
+  .workheader {
+    font-size:30px;
+}
+@media (max-width:450px) {
+  .mockimage {
+  height:300px;
+  }
+  .testmove2 {
+  margin-left:15px;
+  }
+.testmove3 {
+  margin-right:15px;
+  }
+}
