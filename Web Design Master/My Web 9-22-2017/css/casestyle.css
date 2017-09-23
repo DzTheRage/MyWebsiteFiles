@@ -72,13 +72,12 @@ max-width: none;
   display: none;
 }
 .workheader {
-    margin-bottom: 30px;
-    font-size: 40px;
-    font-weight:bold;
-    letter-spacing: 0.12em;
+    margin-bottom: 10px;
+    font-size: 55px;
+    font-weight:700;
     text-transform: uppercase;
-    margin-top:50px;
     text-align:center;
+    color:white;
 }
 .worksubheader {
     margin-bottom: 30px;
@@ -108,6 +107,7 @@ max-width: none;
   padding:50px;
   background-color:black;
   width:100%;
+  margin-top:80px;
 }
 .workfooter h4{
   font:italic 2em georgia;
@@ -126,11 +126,24 @@ max-width: none;
   color:#ffb96c;
 }
 .workdescription {
-  max-width:500px;
+  text-align:left;
+  padding-bottom:50px;
+  color:#cbcbc9;
+  line-height:1.6;
+  padding-left:15px;
+  padding-right:15px;
+  font-size:18px;
+}
+.workdescriptiontag {
   text-align:center;
   padding-bottom:50px;
   color:#cbcbc9;
   line-height:1.6;
+  color:white;
+  font-weight:300;
+  font-size:15px;
+  letter-spacing:3px;
+  opacity:.8;
 }
 .workinfos {
   background-color: #cbcbc9;
@@ -753,6 +766,85 @@ margin-top:-5px;
   border-radius:30px;
   }
 }
+/*** END WORKS NAV ***/
+/** HEXAGON CSS **/
+.hexagon p {
+  text-align:center;
+  color:rgba(255,255,255,0.9);
+  font-size:15px;
+  margin-top:2px;
+}
+.hexagon p:after, .hexagon p:before{
+  content: "";
+  position: absolute;
+  top:10px;
+  height: 2px;
+  border-bottom: 1px solid white;
+  width: 100px;
+}
+.hexagon p:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.hexagon p:after {
+  left: 100%;
+  margin-left: 15px;
+}
+.hexagon {
+  position: relative;
+  width: 50px; 
+  height: 28.87px;
+  background:transparent;
+  margin: 80px 0;
+  margin-top:200px;
+  border-left: solid 3px #ffb96c;
+  border-right: solid 3px #ffb96c;
+  opacity:0.9;
+}
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 35.36px;
+  height: 35.36px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 4.3223px;
+}
+
+.hexagon:before {
+  top: -17.6777px;
+  border-top: solid 4.2426px #ffb96c;
+  border-right: solid 4.2426px #ffb96c;
+  opacity:0.9;
+}
+
+.hexagon:after {
+  bottom: -17.6777px;
+  border-bottom: solid 4.2426px #ffb96c;
+  border-left: solid 4.2426px #ffb96c;
+  opacity:0.9;
+}
+/**END HEXAGON CSS **/
+/** WORK IMAGES **/
+.workimages {
+  margin-top:20px;
+}
+/** WORK IMAGES **/
+/** MEDIA QUERIES **/
+@media (max-width:1000px) {
+  #cd-intro{
+    margin-top:125px;
+  }
+    .workheader {
+    font-size:45px;
+    padding-right:35px;
+    padding-left:35px;
+  }
+}
 @media (max-width:750px) {
  .caseheader {
   line-height:50px;
@@ -808,7 +900,19 @@ margin-top:-5px;
     font-size: 40px;
   }
   .workheader {
-    font-size:30px;
+    font-size:35px;
+    padding-right:35px;
+    padding-left:35px;
+}
+  #cd-intro{
+  margin-top:100px;
+  }
+.workdescription {
+  font-size:15px;
+}
+.hexagon {
+  margin: 80px 0;
+}
 }
 @media (max-width:450px) {
   .caseheader {
