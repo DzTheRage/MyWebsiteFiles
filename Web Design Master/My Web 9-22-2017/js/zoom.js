@@ -1,5 +1,5 @@
 jQuery(document).ready(function($){
-	var introSection = $('#cd-intro-background'),
+	var introSection = $('#intro-background'),
 		introSectionHeight = introSection.height(),
 		//change scaleSpeed if you want to change the speed of the scale effect
 		scaleSpeed = 0.3,
