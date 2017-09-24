@@ -8,7 +8,6 @@
         transition: background .5s ease-in-out, padding .5s ease-in-out;
 }
 /*GLOWER BAR */
-/*GLOWER BAR */
 .draw {
   position: fixed;
 }
@@ -20,13 +19,6 @@
   width: 0;
   height: 0;
 }
-.draw::before {
-  top: 0;
-  left: 0;
-  border-top-color: transparent;
-  border-right-color: transparent;
-  animation: border 2s infinite;
-}
 .draw::after {
   bottom: 0;
   right:0;
@@ -34,7 +26,6 @@
   transform: scale3d(1,1,1);
   transition: transform 0.5s;
 }
-
 @keyframes border {
   0% {
     width: 0;
@@ -91,13 +82,13 @@ p {
 	border-bottom:1px solid #666;
 }
 .First {
-    background:url(workingbg.jpg);
+    background:url(workingbg4.jpg);
 }
 .Second {
     background: url(workingbg2.jpg);
 }
 .Third {
-    background: url(workingbg4.jpg);
+    background: url(workingbg.jpg);
 }
 .Fifth {
     background: url(workingbg6.jpg);
@@ -189,33 +180,12 @@ a:visited {
 a {
     outline:0;
 }
-.projectlink {
-    padding:20px;
-    border-radius:25px;
-    -moz-transition: all .3s ease-in;
-    -o-transition: all .3s ease-in;
-    -webkit-transition: all .3s ease-in;
-    transition: all .3s ease-in;
-    margin-right:600px;
-}
 /*BG CSS */
 .backgroundCSS{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.link2 {
-	outline: none;
-	text-decoration: none;
-	position: relative;
-	font-size: 4em;
-	line-height: 1;
-    text-transform: uppercase;
-	font-weight: 900;
-	color: #ffffff;
-	display: inline-block;
-}
-
 /* Nav Adjustments */
 .DesktopNavLink {
     font-size: 1.5em;
@@ -563,6 +533,48 @@ margin-top:-5px;
 }
 /* END MOBILE NAV */
 
+
+/***** PROJECTLINK *****/
+.link2 {
+	outline: none;
+	text-decoration: none;
+	position: relative;
+	font-size: 4em;
+	line-height: 1;
+    text-transform: uppercase;
+	font-weight: 900;
+	display: inline-block;
+}
+.projectlink {
+    padding:20px;
+    border-radius:25px;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    margin-right:600px;
+    color:white;
+}
+.projectlink a {
+    color:white;
+}
+/* LEFT TO RIGHT */
+.hoverLR {
+display: inline-block;
+}
+.hoverLR:after {
+content: '';
+display: block;
+height: 3px;
+width: 0;
+background: transparent;
+transition: width .5s ease, background-color .5s ease;
+}
+.hoverLR:hover:after {
+width: 100%;
+background: rgba(255,255,255,0.5);
+}
+
 /* Media Queries */
 @media (max-width:1250px) {
     .projectlink {
@@ -630,7 +642,7 @@ margin-top:-5px;
     }
     .mobilenavbar {
     height:60px;
-    opacity:.9;
+    opacity:1;
     display:block;
     }
     .projecthead {

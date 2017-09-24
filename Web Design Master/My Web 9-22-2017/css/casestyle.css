@@ -19,7 +19,7 @@ body {
   background-color: #171717;
 }
 
-#cd-intro {
+#intro {
   position: relative;
   z-index: 1;
 }
@@ -40,7 +40,7 @@ width:80%;
   letter-spacing:10px;
   font-size:20px;
 }
-#cd-intro{
+#intro{
   margin-top:200px;
   margin-bottom:100px;
 }
@@ -50,13 +50,38 @@ position: relative;
 width: auto;
 max-width: none;
 }
-.cd-content {
+.main-content {
   position: relative;
   line-height: 1.6;
   color: #65676f;
   z-index: 2;
 }
-.cd-content::before {
+.projectlink {
+  padding:20px;
+  margin-top:90px;
+  border-radius:30px;
+  color:rgba(255,255,255, 1);
+  letter-spacing:1px;
+  font-weight:500;
+  font-size:1.3em;
+  -moz-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  border:solid 2px #ffb96c;
+}
+.projectlink:visited, .projectlink:focus{
+     color: white;
+     border:solid 2px #ffb96c;
+}
+.projectlink:hover, .projectlink:focus:hover{
+  border:solid 2px white;
+  color:#ffb96c;
+}
+.projectlink:active{
+     color: #ffb96c;
+}
+.main-content::before {
   /* subtle gradient right above the main content */
   content: '';
   position: absolute;
@@ -67,7 +92,7 @@ max-width: none;
   background: -webkit-linear-gradient( bottom , rgba(46, 49, 61, 0.5), rgba(46, 49, 61, 0));
   background: linear-gradient(to top, rgba(46, 49, 61, 0.5), rgba(46, 49, 61, 0));
 }
-.no-cssgradients .cd-content::before {
+.no-cssgradients .main-content::before {
   /* use Modernizr to detect whether the browser supports or not css gradients */
   display: none;
 }
@@ -122,7 +147,7 @@ max-width: none;
   font-weight:500;
   color:#fff;
 }
-.workfooter p span{
+.workfooter p span a{
   color:#ffb96c;
 }
 .workdescription {
@@ -836,7 +861,7 @@ margin-top:-5px;
 /** WORK IMAGES **/
 /** MEDIA QUERIES **/
 @media (max-width:1000px) {
-  #cd-intro{
+  #intro{
     margin-top:125px;
   }
     .workheader {
@@ -904,7 +929,7 @@ margin-top:-5px;
     padding-right:35px;
     padding-left:35px;
 }
-  #cd-intro{
+  #intro{
   margin-top:100px;
   }
 .workdescription {
@@ -919,7 +944,7 @@ margin-top:-5px;
   font-size:60px;
   line-height:40px;
   }
-  #cd-intro{
+  #intro{
   margin-top:100px;
   margin-bottom:50px;
   }
