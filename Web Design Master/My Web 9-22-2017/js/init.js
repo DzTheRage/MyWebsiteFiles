@@ -11,11 +11,11 @@ var o = {
 			defaultText = 'Skills',
 			speed = 250;
 		
-		r.circle(300, 300, 85).attr({ stroke: 'none', fill: '#ffb96c' });
+		r.circle(300, 300, 85).attr({ stroke: 'none', fill: '#193340' });
 		
 		var title = r.text(300, 300, defaultText).attr({
-			font: 'bold 20px Roboto',
-			fill: '#171717'
+			font: '20px Arial',
+			fill: '#fff'
 		}).toFront();
 		
 		r.customAttributes.arc = function(value, color, rad){

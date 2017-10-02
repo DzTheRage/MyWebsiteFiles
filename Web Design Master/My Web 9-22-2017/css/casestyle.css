@@ -859,6 +859,15 @@ margin-top:-5px;
   margin-top:20px;
   width:100%;
 }
+.workvideo {
+  width:100%;
+}
+.bumpdown {
+  padding-top:75px;
+}
+.mobileshow{
+  display:none;
+}
 /** WORK IMAGES **/
 /** MEDIA QUERIES **/
 @media (max-width:1000px) {
@@ -938,6 +947,15 @@ margin-top:-5px;
 }
 .hexagon {
   margin: 80px 0;
+}
+.bumpdown {
+  padding-top:45px;
+}
+.workvideo{
+  display:none;
+}
+.mobileshow{
+  display:block;
 }
 }
 @media (max-width:450px) {
