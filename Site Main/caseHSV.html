@@ -211,8 +211,9 @@
 			<p class="workdescription">I wanted to find an interesting ways to implement the grid through the site. As I am still learning JavaScript, I looked
 			for some tutorials to help me out and Codrops did just that. On the home page, I first came up with an old school ImageMap that shows a different image
 			everytime you hover in over a grid to look like a hover effect. Yet, this ended up feeling a bit clunky and I knew their was a better answer.
-			So, I found a tutroial on an interactive SVG map on Codrops and manipulated into a grid format in illustrator. Next, I lined up the SVG points
-			to the map underneath them using viewpoint factors in the JS provided.</p>
+			So, I found a tutroial on an interactive SVG map on Codrops and manipulated it into a grid format in illustrator. Next, I lined up the SVG points
+			to the map underneath them using viewpoint factors in the JS provided. After, I made adjustments to opacity and how points were hid and shown in on
+			the grid.</p>
 			</div>
 			</div>
 			<div class="row flex-center">
@@ -240,8 +241,8 @@
 			<div class="col-xl-10 col-lg-8 col-md-12 col-sm-12 flex-center">
 			<p class="workdescription bumpdown">Lastly, on the individual grid page, I followed another tutorial on Codrops to implement a grid
 			format that adapts to the viewport size to maintain the grid. When clicking on an image, a dark overlay covers screen
-			and brings up the image clicked. Inside the image you can show aperture, iso, exposure, and other settings put in by
-			users next to icons from FontAwesome.</p>
+			and brings up the image clicked. Inside the image, EXIF data is extracted from each image using exif.js. The data included for these
+			images includes: camera model, focal length, aperture size, exposure time, and ISO speed rating.</p>
 			</div>
 			</div>
 			<div class="row flex-center">
@@ -271,7 +272,7 @@
 			to make an account, login, and upload their new photos to their respective grids. Users upload new images to the grid by creating a new "page" through a php
 			template which has an HTML embed inside for each respective grid. On this "page", the user can add their image, a title, camera settings,
 			and the date the photo was taken. By installing a new addon for Couch, I was also able to add some user control to the admin-access panel
-			which allows only thesuper admin to change settings and certain elements tagged with PHP that they may want to edit in the future.
+			which allows only the super admin to change settings and certain elements tagged with PHP that they may want to edit in the future.
 			</div>
 			</div>
 			<div class="row flex-center">
