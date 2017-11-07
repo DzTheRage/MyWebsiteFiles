@@ -24,7 +24,7 @@ body {
   z-index: 1;
 }
 .mockimage {
-width:80%;
+width:100%;
 }
 .caseheader {
   text-align:center;
@@ -879,11 +879,15 @@ margin-top:-5px;
     padding-right:35px;
     padding-left:35px;
   }
+ .caseheader {
+  line-height:70px;
+  font-size:90px;
+  }
 }
 @media (max-width:750px) {
  .caseheader {
-  line-height:50px;
-  font-size:90px;
+  line-height:70px;
+  font-size:80px;
 }
 .caseheadersmall {
   font-size:15px;
@@ -960,8 +964,8 @@ margin-top:-5px;
 }
 @media (max-width:450px) {
   .caseheader {
-  font-size:60px;
-  line-height:40px;
+  font-size:50px;
+  line-height:55px;
   }
   #intro{
   margin-top:100px;
