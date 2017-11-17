@@ -86,7 +86,7 @@
 <!---Content Start--->
 <div class="container-fluid workmainBG">
 <div id="First"></div>
-							<section class="panel First backgroundCSS" data-section-name="first">
+				<section class="panel First backgroundCSS" data-section-name="first">
 				<div class="row flex-center">
 					<div class="pad-fix col-xl-12 col-lg-12 col-md-12 col-12-sm">
 						<ul class="projects flex-center">
@@ -124,7 +124,7 @@
 
 <div class="container-fluid workmainBG">
 		<div id="Third"></div>
-				<section class="panel Third wow fadeIn backgroundCSS" data-wow-delay="0.3s" data-section-name="third">
+				<section class="panel Third backgroundCSS" data-section-name="third">
 					<div class="row flex-center">
 						<div class="pad-fix col-xl-12 col-lg-12 col-md-12 col-12-sm">
 							<ul class="projects flex-center">
@@ -212,13 +212,18 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="/js/mdb.min.js"></script>
 	<!-- Scripts --->
-	<script type="text/javascript" src="/js/jquery.scrollify.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.17/jquery.scrollify.min.js"></script>
+	<script>
+		$.scrollify({
+    touchScroll:false,
+	 });
+	</script>
 	<script src="/js/works-pagination.js"></script>
 	<!-- NAV SCRIPT -->
 	<script src="/js/classie.js"></script>
 	<script src="/js/nav.js"></script>
 	<script src="/js/main.js"></script>
-		
+	
 <!--Animations initialization-->
 <script>
 new WOW().init();

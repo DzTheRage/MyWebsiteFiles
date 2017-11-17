@@ -1032,12 +1032,25 @@ padding-bottom:50px;
     .aboutheader {
         padding-left:30px;
     }
+     .desktopskills {
+    display:none;
+    }
+    .mobileskills {
+    display:block;
+    }
 }
 @media (max-width:868px) {
     .social-links::before {
     margin-top:10px;
     margin-bottom:20px;
     }
+    .desktopskills {
+    display:none;
+    }
+    .mobileskills {
+    display:block;
+    }
+}
 @media (max-width:768px) {
     .aboutside {
         padding-bottom:0px;
@@ -1090,12 +1103,6 @@ padding-bottom:50px;
     }
     .padtop {
     padding-top:50px;
-    }
-    .desktopskills {
-    display:none;
-    }
-    .mobileskills {
-    display:block;
     }
 }
 @media (max-width:442px) {

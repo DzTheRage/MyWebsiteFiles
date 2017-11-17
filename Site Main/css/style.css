@@ -7,6 +7,7 @@ body,
     height: 100%;
 }
 
+
 .view {
     background: #171717;
     -webkit-background-size: cover;
@@ -35,8 +36,6 @@ ul {text-align:center}
     opacity:0.9;
 }
 .homebutton2 {
-    width: 250px;
-    height: 100px;
     padding: 16px 80px;
     text-align: center;
     background-color: transparent;
@@ -44,13 +43,9 @@ ul {text-align:center}
     color:white;
     letter-spacing:0.2em;
     font-weight:bold;
-    box-sizing:border-box;
-    margin-left:100px;
 }
 
 .homebutton1 {
-    width: 250px;
-    height: 100px;
     padding: 16px 80px;
     text-align: center;
     background-color: transparent;
@@ -58,8 +53,6 @@ ul {text-align:center}
     color:white;
     letter-spacing:0.2em;
     font-weight:bold;
-    box-sizing:border-box;
-    margin-right:100px;
 }
 .movedown {
     margin-top:0px;
@@ -72,10 +65,12 @@ ul {text-align:center}
 margin: 0px 0;
 color: #d8d8d8;
 font-size:30px;
-letter-spacing: 0.35em;
+letter-spacing: 0.25em;
 text-transform: uppercase;
 font-weight:bold;
 text-align:center;
+padding-top:16px;
+
 }
 .hometagline {
     margin-bottom:40px;
@@ -327,7 +322,11 @@ transition: height 0.2s ease;
       width 0.25s ease-out 0.5s, 
       height 0.25s ease-out 0.75s; 
   }
-
+  
+/* Mobile LOGO */
+.homelogo {
+    display:none;
+}
 
 /* SVG DESKTOP HEADER */
 .content {
@@ -390,7 +389,10 @@ transition: height 0.2s ease;
   overflow: hidden;
   padding-top:50px;
   -webkit-transform: translate3d(23,23,23);
-  
+}
+
+.heightwrap {
+     height:300px;
 }
 
 a:active {
@@ -774,8 +776,19 @@ body {
     margin-top:30px;
     margin-bottom:50px;
 }
-/* END MOBILE NAV */
 
+/* END MOBILE NAV */
+@media (max-width:1055px) {
+    .heightwrap {
+    display:none;
+    }
+    .homelogo {
+    display:block;
+    width:40%;
+    height:auto;
+    margin:auto;
+    }
+}
 /* Media Query */
 @media (max-width:868px) {
 	.movedown2 {
@@ -806,11 +819,6 @@ body {
     }
      .container {
     width:325px;
-    }
-    .homelogo {
-    width:70%;
-    height:auto;
-    margin:auto;
     }
     .h1 {
         font-size:2.3em;
@@ -849,12 +857,7 @@ body {
     {
     margin-bottom:0px;
     }
-}
-@media (max-width:1010px) {
-    .homebutton1 {
-        margin-right:0px;
-    }
-    .homebutton2 {
-        margin-left:0px;
+    .homelogo {
+    width:70%;
     }
 }

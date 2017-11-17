@@ -17,7 +17,7 @@
 	<script src="/js/modernizr.custom.js"></script>
 </head>
 
-<body onload="myFunction();">
+<body>
 <div class="view containerScale">
 <!--- Mobile NAV --->
 <div class="container-fluid">
@@ -58,85 +58,110 @@
 
     <!--Intro content-->
     <div class="full-bg-img content-wrap">
-	<div class="content flex-center">
-        <ul class="movedown">
-		<div class="container-fluid">
-        <div class="row">
-        <div class="col-md-12 flex-center">
-        <img class="img-responsive homelogo wow fadeIn flex-center" data-wow-delay="1.5s" src="/css/logoSV2.png" width="315px" height="211px">
-		</div>
-		</div>
-		<div class="row">
-		<div class="col-md-12 flex-center">
-		<div class="wrap wow fadeInUp" data-wow-delay="0.4s">
-                <svg viewBox="0 0 1000 300" class="svg-defs">
-
-                    <!-- Symbol with text -->
-                    <symbol id="s-text">
-                        <text text-anchor="middle" x="50%" y="50%" dy=".35em" class="text">
-                            Scott Vance
-                        </text>
-                    </symbol>
-
-                    <!-- Mask with text -->
-                    <mask id="m-text" maskunits="userSpaceOnUse" maskcontentunits="userSpaceOnUse">
-
-                        <rect width="100%" height="100%" class="mask__shape">
-                        </rect>
-                        <use xlink:href="#s-text" class="mask__text"></use>
-
-                    </mask>
-                </svg>
-
-                <div class="box-with-text">
-
-                    <!-- Container for video -->
-                    <div class="text-fill">
-                        <video class="video" src="/css/fractal3.mp4" autoplay loop></video>
-                    </div>
-
-                    <!-- Visible SVG -->
-                    <svg viewBox="0 0 1000 300" class="svg-inverted-mask">
-                        <rect width="100%" height="100%" mask="url(#m-text)" class="shape--fill" />
-                        <use xlink:href="#s-text" class="text--transparent"></use>
-                    </svg>
-                </div>
-		</div>
-		</div>
-		</div>
-		</div>
-		<div class="mobilehead wow fadeInUp" data-wow-delay="1s">
-		<h1 class="h1-responsive homeheading wow fadeInUp" data-wow-delay=".7s">Scott Vance</h1>
-		</div>
+		<div class="content flex-center">
+			<ul class="movedown">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12 flex-center">
+							<img class="img-responsive homelogo wow fadeIn flex-center" data-wow-delay="0.4s" src="/css/logoSV2.png" width="315px" height="211px">
+							<div class="wrap heightwrap wow fadeInDown" data-wow-delay="0.4s">
+								<svg viewBox="0 0 1000 300" class="svg-defs">
+								<!-- Symbol with Logo -->
+								  <symbol id="s-text2">
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="30%" y="-25%" width="700" height="800" viewBox="0 0 1000 800">
+										<path d="M468.896,118.65l-80.667,254.289H145.563l-24.334-62.667h188 c0,0,26.167,0.167,33.311-18.676l15.356-50.99c20.333-62.333,22.67-67.217-34-67.667c-15.121-0.12-30.689,0.122-39.254,0.072 c-17.878-0.105-22.246,0.139-20.368-10.094l10.712-34.979c0,0,1.285-9.287,17.66-9.287"/>
+										<path d="M275.563,267.9c28.667,0,28.013-1.13,35.833-28.5c8-28,9.457-29.082-12-29.5 c-10.548-0.205-26.166,0-26.166,0c-51.959,0-64.834,1.5-58.222-24.03c2.682-10.354,6.587-25.693,12.221-45.637 c4.024-14.247,8.103-29.353,11.369-38.006C250.481,70.74,271.842,75.708,343.23,75.9c92.334,0.249,139.333,0,139.333,0l20.333-62 h-314l-41.553,149.031c0,0-2.537,10.65-6.408-0.212L87.896,13.9h-69l89.667,254H275.563"/>
+									</svg>
+								  </symbol>
+								<!-- Mask with text -->
+								  <mask id="m-text2" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
+									<rect width="100%" height="100%" class="mask__shape">
+									</rect>
+									<use href="#s-text2" class="mask__text"></use>
+								  </mask>
+							   </svg>
+							
+							   <div class="box-with-text">
+							   <!-- Container for video -->
+							   <div class="text-fill">
+							   <video class="video" src="/css/fractal3.mp4" autoplay loop></video>
+							  </div>
+							  <!-- Visible SVG -->
+							   <svg viewBox="0 0 1000 300" class="svg-inverted-mask">
+								<rect width="100%" height="100%" mask="url(#m-text2)" class="shape--fill" />
+								  <use href="#s-text2" class="text--transparent"></use>
+								</svg>
+							   </div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 flex-center">
+							<div class="wrap wow fadeInUp" data-wow-delay="0.4s">
+								<svg viewBox="0 0 1000 300" class="svg-defs">
+		
+									<!-- Symbol with text -->
+									<symbol id="s-text">
+										<text text-anchor="middle" x="50%" y="50%" dy=".35em" class="text">
+											Scott Vance
+										</text>
+									</symbol>
+								
+									<!-- Mask with text -->
+									<mask id="m-text" maskunits="userSpaceOnUse" maskcontentunits="userSpaceOnUse">
+				
+										<rect width="100%" height="100%" class="mask__shape">
+										</rect>
+										<use xlink:href="#s-text" class="mask__text"/></use>
+				
+									</mask>
+								</svg>
+		
+								<div class="box-with-text">
+				
+									<!-- Container for video -->
+									<div class="text-fill">
+										<video class="video" src="/css/fractal3.mp4" autoplay loop></video>
+									</div>
+				
+									<!-- Visible SVG -->
+									<svg viewBox="0 0 1000 300" class="svg-inverted-mask">
+										<rect width="100%" height="100%" mask="url(#m-text)" class="shape--fill" />
+										<use xlink:href="#s-text" class="text--transparent"></use>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mobilehead wow fadeInUp" data-wow-delay="0.6s">
+					<h1 class="h1-responsive homeheading">Scott Vance</h1>
+				</div>
             <div class="container-fluid">
                 <div class="row movedown2">
-                <div class="col-xl-3 col-md-3 flex-center homeleft">
-            <li>
-                <a href="/about" class="btn-lg homebutton1 wow fadeInUp cmn-t-underline" data-wow-delay="1.1s">
-                ABOUT</a>
-            </li>
-                </div>
-                <div class="col-xl-6 col-md-6 flex-center">
-					
-            <li>
-                   <h4 class="h4-responsive baseline wow fadeInUp" data-wow-delay="1s">DESIGN STUDENT</h4>
-                   <h4 class="h4-responsive hometagline wow fadeInUp" data-wow-delay="1s">UX / Graphic / Web </h4>
-            </li>
-                </div>
-                <div class="col-xl-3 col-md-3 flex-center homeright">
-            <li>
-                <a href="/works" class="btn-lg homebutton2 wow fadeInUp cmn-t-underline" data-wow-delay="1.1s">
-                WORKS</a>
-            </li>
-                </div>
-            </div>
-            
-            <div class="row flex-center">
-                <div class="col-md-3"></div>
-                <div class="col-md-6 flex-center">
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						 <li>
+							<a href="/about" class="btn-lg homebutton1 wow fadeInUp cmn-t-underline flex-center" data-wow-delay="1.1s">
+							ABOUT</a>
+						</li>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-6">	
+						<li>
+						  <h4 class="h4-responsive baseline wow fadeInUp flex-center" data-wow-delay="1s">WEB DEVELOPER</h4>
+						  <h4 class="h4-responsive hometagline wow fadeInUp flex-center" data-wow-delay="1s">Front End, UX, Graphic Design</h4>
+						</li>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-3">
+						<li>
+							<a href="/works" class="btn-lg homebutton2 wow fadeInUp cmn-t-underline flex-center" data-wow-delay="1.1s">
+							WORKS</a>
+						  </li>
+					</div>
+				</div>
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 flex-center">
                     <button id="trigger-overlay" type="button" class="thebutton contactbtn wow fadeInUp" data-wow-delay="1.3s">CONTACT</button>
                 </div>
-            <div class="col-md-3"></div>
             </div>
             </div>
    
@@ -163,7 +188,6 @@
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="/js/mdb.min.js"></script>
-    <script type="text/javascript" src="/js/home.js"></script>
     <!-- SCRIPTS -->
     <script src="/js/classie.js"></script>
 	<script src="/js/demo7.js"></script>
