@@ -869,6 +869,25 @@ margin-top:-5px;
   display:none;
 }
 /** WORK IMAGES **/
+
+/** LIST ITEMS **/
+
+ul li {
+  list-style:circle;
+}
+
+.featureTag{
+  font-weight: 300;
+font-size: 15px;
+letter-spacing: 3px;
+opacity: .8;
+list-style:none;
+}
+
+.featureTag2{
+  padding-top:20px;
+}
+
 /** MEDIA QUERIES **/
 @media (max-width:1000px) {
   #intro{

@@ -778,17 +778,14 @@ body {
 }
 
 /* END MOBILE NAV */
-@media (max-width:1055px) {
-    .heightwrap {
-    display:none;
-    }
-    .homelogo {
-    display:block;
-    width:40%;
-    height:auto;
-    margin:auto;
+
+/* MEDIA HEADERS */
+@media (max-width:1300px) {
+    .wrap {
+        padding-top:0px;
     }
 }
+
 /* Media Query */
 @media (max-width:868px) {
 	.movedown2 {
@@ -857,7 +854,11 @@ body {
     {
     margin-bottom:0px;
     }
+    .heightwrap {
+    display:none;
+    }
     .homelogo {
     width:70%;
+    display:block;
     }
 }
