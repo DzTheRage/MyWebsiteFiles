@@ -5,7 +5,7 @@
 Handler:DirectoryHandler
 FontType:Invalid
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Bold.eot
-FileModTime:1493130294
+FileModTime:1493126694
 %EndFont
 
 %BeginFont
@@ -21,7 +21,7 @@ WritingScript:Roman
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Bold.ttf
 DataFormat:sfntData
 FileLength:127744
-FileModTime:1493130294
+FileModTime:1493126694
 WeightClass:700
 WidthClass:5
 AngleClass:0
@@ -31,21 +31,21 @@ AngleClass:0
 Handler:DirectoryHandler
 FontType:Invalid
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Bold.woff
-FileModTime:1493130294
+FileModTime:1493126694
 %EndFont
 
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Bold.woff2
-FileModTime:1493130294
+FileModTime:1493126694
 %EndFont
 
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Light.eot
-FileModTime:1493130294
+FileModTime:1493126694
 %EndFont
 
 %BeginFont
@@ -61,7 +61,7 @@ WritingScript:Roman
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Light.ttf
 DataFormat:sfntData
 FileLength:126792
-FileModTime:1493130294
+FileModTime:1493126694
 WeightClass:300
 WidthClass:5
 AngleClass:0
@@ -71,21 +71,21 @@ AngleClass:0
 Handler:DirectoryHandler
 FontType:Invalid
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Light.woff
-FileModTime:1493130294
+FileModTime:1493126694
 %EndFont
 
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Light.woff2
-FileModTime:1493130294
+FileModTime:1493126694
 %EndFont
 
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Medium.eot
-FileModTime:1493130294
+FileModTime:1493126694
 %EndFont
 
 %BeginFont
@@ -101,7 +101,7 @@ WritingScript:Roman
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Medium.ttf
 DataFormat:sfntData
 FileLength:127488
-FileModTime:1493130294
+FileModTime:1493126694
 WeightClass:500
 WidthClass:5
 AngleClass:0
@@ -111,21 +111,21 @@ AngleClass:0
 Handler:DirectoryHandler
 FontType:Invalid
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Medium.woff
-FileModTime:1493130294
+FileModTime:1493126694
 %EndFont
 
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Medium.woff2
-FileModTime:1493130294
+FileModTime:1493126694
 %EndFont
 
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Regular.eot
-FileModTime:1493130292
+FileModTime:1493126692
 %EndFont
 
 %BeginFont
@@ -141,7 +141,7 @@ WritingScript:Roman
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Regular.ttf
 DataFormat:sfntData
 FileLength:126072
-FileModTime:1493130292
+FileModTime:1493126692
 WeightClass:400
 WidthClass:5
 AngleClass:0
@@ -151,21 +151,21 @@ AngleClass:0
 Handler:DirectoryHandler
 FontType:Invalid
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Regular.woff
-FileModTime:1493130292
+FileModTime:1493126692
 %EndFont
 
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Regular.woff2
-FileModTime:1493130292
+FileModTime:1493126692
 %EndFont
 
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Thin.eot
-FileModTime:1493130292
+FileModTime:1493126692
 %EndFont
 
 %BeginFont
@@ -181,7 +181,7 @@ WritingScript:Roman
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Thin.ttf
 DataFormat:sfntData
 FileLength:127584
-FileModTime:1493130292
+FileModTime:1493126692
 WeightClass:250
 WidthClass:5
 AngleClass:0
@@ -191,14 +191,14 @@ AngleClass:0
 Handler:DirectoryHandler
 FontType:Invalid
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Thin.woff
-FileModTime:1493130292
+FileModTime:1493126692
 %EndFont
 
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\roboto\Roboto-Thin.woff2
-FileModTime:1493130292
+FileModTime:1493126692
 %EndFont
 
 %BeginFont
@@ -214,7 +214,7 @@ WritingScript:Roman
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\riesling\riesling.ttf
 DataFormat:sfntData
 FileLength:45744
-FileModTime:1493130292
+FileModTime:1493126692
 WeightClass:400
 WidthClass:5
 AngleClass:0
@@ -233,7 +233,7 @@ WritingScript:Roman
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\play\Play-Bold.ttf
 DataFormat:sfntData
 FileLength:170232
-FileModTime:1493130292
+FileModTime:1493126692
 WeightClass:700
 WidthClass:5
 AngleClass:0
@@ -252,7 +252,7 @@ WritingScript:Roman
 OutlineFileName:C:\Users\ScottyV\Documents\GitHub\MyWebsiteFiles\Site Main\Font\play\play.ttf
 DataFormat:sfntData
 FileLength:171084
-FileModTime:1493130292
+FileModTime:1493126692
 WeightClass:400
 WidthClass:5
 AngleClass:0
