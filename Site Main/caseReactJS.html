@@ -13,6 +13,7 @@
     <link href="/css/mdb.min.css" rel="stylesheet">
     <!-- MY STYTLE SHEETS -->
 	<link rel="stylesheet" href="/css/casestyle.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="/css/lightbox.css">
 	<script src="/js/modernizr.js"></script> <!-- Modernizr -->
 	</head>
 <body>
@@ -174,12 +175,16 @@
 			</div>
 			<div class="row flex-center">
 				<div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 flex-center">
+					<a href="/css/caseReact2.jpg" data-lightbox="1">
 					<img class="img-responsive workimages" src="/css/caseReact2.jpg">
+					</a>
 				</div>
 			</div>
 			<div class="row flex-center">
 			<div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 flex-center">
-				<img class="img-responsive workimages" src="/css/caseReact5.jpg">
+				<a href="/css/caseReact5.jpg" data-lightbox="1">
+					<img class="img-responsive workimages" src="/css/caseReact5.jpg">
+				</a>
 			</div>
 			</div>
 			<div class="row flex-center">
@@ -211,12 +216,16 @@
 			</div>
 			<div class="row flex-center">
 			<div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 flex-center">
-				<img class="img-responsive workimages" src="/css/caseReact4.jpg">
+				<a href="/css/caseReact4.jpg" data-lightbox="2">
+					<img class="img-responsive workimages" src="/css/caseReact4.jpg">
+				</a>
 			</div>
 			</div>
 			<div class="row flex-center">
 			<div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 flex-center">
-				<img class="img-responsive workimages" src="/css/caseReact3.jpg">
+				<a href="/css/caseReact3.jpg" data-lightbox="2">
+					<img class="img-responsive workimages" src="/css/caseReact3.jpg">
+				</a>
 			</div>
 			</div>
 			<div class="row flex-center">
@@ -253,7 +262,16 @@
   <script src="/js/classie.js"></script>
 	<script src="/js/demo7.js"></script>
 	<script src="/js/main.js"></script>
-
+<!-- LIGHTBOX --->
+<script src="/js/lightbox.min.js"></script>
+<script>
+    lightbox.option({
+      'resizeDuration': 0,
+      'wrapAround': true,
+	  'alwaysShowNavOnTouchDevices' : true,
+	  'imageFadeDuration': 0,
+    });
+</script>
 	
 <!--Animations initialization-->
 <script>

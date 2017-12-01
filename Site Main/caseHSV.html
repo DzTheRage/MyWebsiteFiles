@@ -13,6 +13,7 @@
     <link href="/css/mdb.min.css" rel="stylesheet">
     <!-- MY STYTLE SHEETS -->
 	<link rel="stylesheet" href="/css/casestyle.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="/css/lightbox.css">
 	<script src="/js/modernizr.js"></script> <!-- Modernizr -->
 	</head>
 <body>
@@ -110,7 +111,7 @@
 				<section id="intro">
 					<div id="intro-background" class="row">
 							<div class="col-xl-12-12 col-lg-12 col-md-12 col-sm-12">
-								<h2 class="h2-responsive caseheadersmall">DOCUMENTARY PHOTOGRAPY ON</h2><br>
+								<h2 class="h2-responsive caseheadersmall">DOCUMENTARY PHOTOGRAPHY ON</h2><br>
 								<h2 class="h2-responsive caseheader">THE GRID</h2>
 							</div>
 							<div class="col-xl-12-12 col-lg-12 col-md-12 col-sm-12 flex-center">
@@ -148,18 +149,26 @@
 		</div>
 		<div class="row flex-center">
 			<div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 flex-center">
-			<img class="img-responsive workimages" src="/css/casehsv1.jpg">
+			<a href="/css/casehsv1.jpg" data-lightbox="1">
+				<img class="img-responsive workimages" src="/css/casehsv1.jpg">
+			</a>
 			</div>
 			<div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 flex-center">
-			<img class="img-responsive workimages" src="/css/casehsv2.jpg">
+			<a href="/css/casehsv2.jpg" data-lightbox="1">
+				<img class="img-responsive workimages" src="/css/casehsv2.jpg">
+			</a>
 			</div>
 		</div>
 		<div class="row flex-center">
 			<div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 flex-center">
-			<img class="img-responsive workimages" src="/css/casehsv3.jpg">
+			<a href="/css/casehsv3.jpg" data-lightbox="1">
+				<img class="img-responsive workimages" src="/css/casehsv3.jpg">
+			</a>
 			</div>
 			<div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 flex-center">
-			<img class="img-responsive workimages" src="/css/casehsv4.jpg">
+			<a href="/css/casehsv4.jpg" data-lightbox="1">
+				<img class="img-responsive workimages" src="/css/casehsv4.jpg">
+			</a>
 			</div>
 		</div>
 		<!-- END SECTION 1 --->
@@ -185,12 +194,16 @@
 			</div>
 			<div class="row flex-center">
 			<div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 flex-center">
-				<img class="img-responsive workimages" src="/css/casehsv5.jpg">
+				<a href="/css/casehsv5.jpg" data-lightbox="2">
+					<img class="img-responsive workimages" src="/css/casehsv5.jpg">
+				</a>
 			</div>
 			</div>
 			<div class="row flex-center">
 			<div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 flex-center">
-				<img class="img-responsive workimages" src="/css/casehsv6.jpg">
+				<a href="/css/casehsv6.jpg" data-lightbox="2">
+					<img class="img-responsive workimages" src="/css/casehsv6.jpg">
+				</a>
 			</div>
 			</div>
 		<!-- END SECTION 2 --->
@@ -209,8 +222,8 @@
 			</div>
 			<div class="col-xl-10 col-lg-8 col-md-12 col-sm-12 flex-center">
 			<p class="workdescription">I wanted to find an interesting ways to implement the grid through the site. On the home page, I first came up with an
-			old school ImageMap that shows a different image everytime you hover in over a grid to look like a hover effect. Yet, this ended up feeling a bit clunky
-			and I knew their was a better answer. So, I found a tutroial on an interactive SVG map on Codrops and manipulated it into a grid format in illustrator.
+			old school ImageMap that shows a different image every time you hover in over a grid to look like a hover effect. Yet, this ended up feeling a bit clunky
+			and I knew their was a better answer. So, I found a tutorial on an interactive SVG map on Codrops and manipulated it into a grid format in illustrator.
 			Next, I lined up the SVG points to a map of downtown Huntsville using viewpoint factors in the JS provided. After this, I made adjustments to opacity and
 			how points were hidden and shown on the grid.</p>
 			</div>
@@ -218,7 +231,9 @@
 			<div class="row flex-center">
 			<div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 flex-center">
 			<video class="video workvideo" src="/css/casehsv5.mp4" autoplay loop></video>
-			<img class="img-responsive workimages mobileshow" src="/css/casehsv9.jpg">
+			<a href="/css/casehsv9.jpg" data-lightbox="3">
+				<img class="img-responsive workimages mobileshow" src="/css/casehsv9.jpg">
+			</a>
 			</div>
 			</div>
 			<p class="workdescriptiontag" style="margin-top:10px;">HOME PAGE</p>
@@ -233,7 +248,9 @@
 			<div class="row flex-center">
 			<div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 flex-center">
 			<video class="video workvideo" src="/css/casehsv6.mp4" autoplay loop></video>
-			<img class="img-responsive workimages mobileshow" src="/css/casehsv8.jpg">
+			<a href="/css/casehsv8.jpg" data-lightbox="4">
+				<img class="img-responsive workimages mobileshow" src="/css/casehsv8.jpg">
+			</a>
 			</div>
 			</div>
 			<p class="workdescriptiontag" style="margin-top:10px;">PHOTO GALLERY PAGE</p>
@@ -243,14 +260,16 @@
 			gallery with overlay effects. I ran into a usability problem with the grid as it would construct itself only after all the
 			images were loaded. After tweaking the Masonry grid and using the ImagesLoaded library , I was able to make the grid
 			adjust itself after each image is loaded which allows the users to start viewing images instantly. When viewing an image,
-			EXIF data is extracted from uploaded image and shown to user using the EXIF.js libary. The data included for these images includes:
+			EXIF data is extracted from uploaded image and shown to user using the EXIF.js library. The data included for these images includes:
 			camera model, focal length, aperture size, exposure time, and the date taken.</p>
 			</div>
 			</div>
 			<div class="row flex-center">
 			<div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 flex-center">
 				<video class="video workvideo" src="/css/casehsv7.mp4" autoplay loop></video>
-				<img class="img-responsive workimages mobileshow" src="/css/casehsv7.jpg">
+				<a href="/css/casehsv7.jpg" data-lightbox="5">
+					<img class="img-responsive workimages mobileshow" src="/css/casehsv7.jpg">
+				</a>
 			</div>
 			</div>
 			<p class="workdescriptiontag" style="margin-top:10px; padding-bottom:0px; margin-bottom:0px;">INDIVIDUAL GRID PAGE</p>
@@ -278,12 +297,16 @@
 			</div>
 			<div class="row flex-center">
 			<div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 flex-center">
-				<img class="img-responsive workimages" src="/css/casehsv10.jpg">
+				<a href="/css/casehsv10.jpg" data-lightbox="6">
+					<img class="img-responsive workimages" src="/css/casehsv10.jpg">
+				</a>
 			</div>
 			</div>
 			<div class="row flex-center">
 			<div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 flex-center">
-				<img class="img-responsive workimages" src="/css/casehsv11.jpg">
+				<a href="/css/casehsv11.jpg" data-lightbox="6">
+					<img class="img-responsive workimages" src="/css/casehsv11.jpg">
+				</a>
 			</div>
 			</div>
 			<div class="row flex-center">
@@ -322,7 +345,16 @@
   <script src="/js/classie.js"></script>
 	<script src="/js/demo7.js"></script>
 	<script src="/js/main.js"></script>
-
+<!-- LIGHTBOX --->
+<script src="/js/lightbox.min.js"></script>
+<script>
+    lightbox.option({
+      'resizeDuration': 0,
+      'wrapAround': true,
+	  'alwaysShowNavOnTouchDevices' : true,
+	  'imageFadeDuration': 0,
+    });
+</script>
 	
 <!--Animations initialization-->
 <script>
