@@ -9,7 +9,7 @@ body,
 
 
 .view {
-    background: #171717;
+    background: 00000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -338,7 +338,7 @@ transition: height 0.2s ease;
   fill: white; }
 
 .shape--fill {
-  fill: #171717; }
+  fill: 00000; }
 
 /* Control Opacity of Text */
 .text--transparent {
